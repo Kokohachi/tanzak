@@ -71,6 +71,7 @@ export default function Home() {
           }
         } 
         maxLength={10}/>
+        <Text fz="10" className={TextFont.className} color="black">誹謗中傷・個人情報は書き込まないでください</Text>
         <Button variant="transparent" disabled={
           tanzakData.length === 0 || tanzakAuthor.length === 0
         } leftSection={<IoPaperPlane color="black" size={"20"} />} onClick={handleSendTanzak}><Text fz="20" className={TextFont.className} color="black">Send Tanzak to Milky Way</Text></Button>

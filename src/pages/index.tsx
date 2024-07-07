@@ -70,7 +70,7 @@ export default function Home() {
             setTanzakAuthor(e.currentTarget.value);
           }
         } 
-        maxLength={10}/>
+        maxLength={20}/>
         <Text fz="10" className={TextFont.className} color="black">誹謗中傷・個人情報は書き込まないでください</Text>
         <Button variant="transparent" disabled={
           tanzakData.length === 0 || tanzakAuthor.length === 0
@@ -82,27 +82,27 @@ export default function Home() {
       <Group mt={"20px"} mx={"10%"}>
         <Card mr={"30px"} ml={"auto"} style={{"backgroundColor":"#ffff9c", opacity:"0.8", msWritingMode:"vertical-rl", writingMode:"vertical-rl"}} w="150px" h={"500px"}>
           <Text fz="30" className={CardFont.className} >{tanzakList[0]?.tanzak_data}</Text>
-          <Text fz="20" className={CardFont.className} pt={"350px"} >{tanzakList[0]?.tanzak_author}</Text>
+          <Text fz="20" className={CardFont.className} pt={"250px"} >{tanzakList[0]?.tanzak_author}</Text>
         </Card>
         <Card mr={"30px"}  style={{"backgroundColor":"#ffff9c", opacity:"0.8", msWritingMode:"vertical-rl", writingMode:"vertical-rl"}} w="150px" h={"500px"}>
           <Text fz="30" className={CardFont.className} >{tanzakList[1]?.tanzak_data}</Text>
-          <Text fz="20" className={CardFont.className} pt={"350px"} >{tanzakList[1]?.tanzak_author}</Text>
+          <Text fz="20" className={CardFont.className} pt={"250px"} >{tanzakList[1]?.tanzak_author}</Text>
         </Card>
         <Card mr={"30px"}  style={{"backgroundColor":"#ffff9c", opacity:"0.8", msWritingMode:"vertical-rl", writingMode:"vertical-rl"}} w="150px" h={"500px"}>
           <Text fz="30" className={CardFont.className} >{tanzakList[2]?.tanzak_data}</Text>
-          <Text fz="20" className={CardFont.className} pt={"350px"} >{tanzakList[2]?.tanzak_author}</Text>
+          <Text fz="20" className={CardFont.className} pt={"250px"} >{tanzakList[2]?.tanzak_author}</Text>
         </Card>
         <Card mr={"30px"} style={{"backgroundColor":"#ffff9c", opacity:"0.8", msWritingMode:"vertical-rl", writingMode:"vertical-rl"}} w="150px" h={"500px"}>
           <Text fz="30" className={CardFont.className} >{tanzakList[3]?.tanzak_data}</Text>
-          <Text fz="20" className={CardFont.className} pt={"350px"} >{tanzakList[3]?.tanzak_author}</Text>
+          <Text fz="20" className={CardFont.className} pt={"250px"} >{tanzakList[3]?.tanzak_author}</Text>
         </Card>
         <Card mr={"30px"} style={{"backgroundColor":"#ffff9c", opacity:"0.8", msWritingMode:"vertical-rl", writingMode:"vertical-rl"}} w="150px" h={"500px"}>
           <Text fz="30" className={CardFont.className} >{tanzakList[4]?.tanzak_data}</Text>
-          <Text fz="20" className={CardFont.className} pt={"350px"} >{tanzakList[4]?.tanzak_author}</Text>
+          <Text fz="20" className={CardFont.className} pt={"250px"} >{tanzakList[4]?.tanzak_author}</Text>
         </Card>
         <Card mr={"auto"} style={{"backgroundColor":"#ffff9c", opacity:"0.8", msWritingMode:"vertical-rl", writingMode:"vertical-rl"}} w="150px" h={"500px"}>
           <Text fz="30" className={CardFont.className} >{tanzakList[5]?.tanzak_data}</Text>
-          <Text fz="20" className={CardFont.className} pt={"350px"} >{tanzakList[5]?.tanzak_author}</Text>
+          <Text fz="20" className={CardFont.className} pt={"250px"} >{tanzakList[5]?.tanzak_author}</Text>
         </Card>
 
       </Group>
